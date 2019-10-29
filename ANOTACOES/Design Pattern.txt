@@ -1,0 +1,102 @@
+O que são design patterns?
+R: 
+Implementações especificas para resolver problemas em aplicações orientadas a objetos. 
+
+Quais são os padrões criacionais e pra que servem?
+R:
+Os padrões de design criacionais estão preocupados com a maneira de criar objetos. 
+Esses padrões de design são usados ​​quando uma decisão deve ser tomada no momento da instanciação de uma classe (isto é, a criação de um objeto de uma classe).
+Eles são:
+Factory Pattern
+Abstract Factory Pattern
+Singleton Pattern
+Prototype Pattern
+Builder Pattern
+
+Quais são os padrões estruturais?
+R:
+Adapter Pattern
+Bridge Pattern
+Composite Pattern
+Decorator Pattern
+Facade Pattern
+Flyweight Pattern
+Proxy Pattern
+
+Quais são os padrões comportamentais?
+R:
+Chain Of Responsibility Pattern
+Command Pattern
+Interpreter Pattern
+Iterator Pattern
+Mediator Pattern
+Memento Pattern
+Observer Pattern
+State Pattern
+Strategy Pattern
+Template Pattern
+Visitor Pattern
+
+O que é Hard-Coded?
+R:
+É a pratica de inserir dados diretamente no codigo fonte, não buscando-os de lugares externos como por exemplo databases, exemplos disso seriam enums. 
+
+O que define Factory Pattern?
+R:
+Define uma interface ou classe abstrata para criar um objeto, mas deixa as subclasses decidirem qual classe instanciar. 
+Em outras palavras, as subclasses são responsáveis ​​por criar a instância da classe.
+
+Quais são as vantagens e quando usar o Factory Pattern?
+R:
+
+Vantagem do padrão de projeto da fábrica
+O Factory Method Pattern permite que as subclasses escolham o tipo de objetos a serem criados.
+Ele promove o acoplamento flexível , eliminando a necessidade de vincular classes específicas do aplicativo ao código. 
+Isso significa que o código interage exclusivamente com a interface resultante ou a classe abstrata, 
+para que ele funcione com qualquer classe que implemente essa interface ou que estenda essa classe abstrata.
+
+Uso do padrão de design da fábrica
+Quando uma classe não sabe quais subclasses serão necessárias para criar.
+Quando uma classe deseja que suas subclasses especifiquem os objetos a serem criados.
+Quando as classes pai escolhem a criação de objetos para suas subclasses.
+
+O que define Abstract Factory Pattern?
+R:
+Define uma interface ou classe abstrata para criar famílias de objetos relacionados (ou dependentes), 
+mas sem especificar suas subclasses concretas. Isso significa que o Abstract Factory permite que uma classe retorne uma fábrica de classes. 
+Portanto, esse é o motivo pelo qual o Abstract Factory Pattern é um nível mais alto que o Factory Pattern.
+
+Um Abstract Factory Pattern também é conhecido como Kit.
+
+Quais são as vantagens e quando usar o Abstract Factory Pattern?
+R:
+Vantagem do padrão abstrato de fábrica
+O Abstract Factory Pattern isola o código do cliente das classes concretas (implementação).
+Facilita a troca de famílias de objetos.
+Promove consistência entre objetos.
+
+Uso do padrão abstrato de fábrica
+Quando o sistema precisa ser independente de como seu objeto é criado, composto e representado.
+Quando a família de objetos relacionados precisa ser usada em conjunto, essa restrição precisa ser imposta.
+Quando você deseja fornecer uma biblioteca de objetos que não mostra implementações e apenas revela interfaces.
+Quando o sistema precisa ser configurado com um de uma família múltipla de objetos.
+
+O que define Singleton Pattern?
+R:
+Define uma classe que possui apenas uma instância e fornece um ponto de acesso global a ela.
+
+Quais são as duas formas do Singleton Pattern?
+R:
+Early Instantiation: Cria uma instância em tempo de carregamento.
+
+Lazy Instantiation: Cria uma instância quando é necessário. 
+
+Quais são as vantagens e quando usar o Singleton Pattern?
+R:
+Vantagem do padrão de design Singleton
+Economiza memória porque o objeto não é criado a cada solicitação. Somente uma única instância é reutilizada repetidamente.
+
+Uso do padrão de design Singleton
+O padrão Singleton é usado principalmente em aplicativos multithread e de banco de dados. É usado em registro, armazenamento em cache, conjuntos de threads, definições de configuração etc.
+
+
